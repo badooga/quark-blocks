@@ -2,13 +2,13 @@
 	"schemaVersion": 1,
 	"id": "quark",
 	"version": "1.0.0",
-	"name": "Example mod",
+	"name": "Quark Blocks",
 	"description": "Ports a couple of blocks from the Quark mod to Fabric.",
 	"authors": [
-		"Me!"
+		"badooga"
 	],
 	"contact": {
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/badooga/quark-blocks"
 	},
 	"license": "CC BY-NC-SA 3.0 US",
 	"environment": "*",
@@ -22,8 +22,5 @@
 		"minecraft": ">=1.20",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
