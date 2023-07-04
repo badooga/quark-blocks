@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
+	"parent": "minecraft:block/cube_all",
 	"textures": {
 		"all": "quark:block/duskbound_block"
 	}
 }
+

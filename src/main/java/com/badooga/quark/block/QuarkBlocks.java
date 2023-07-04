@@ -16,8 +16,8 @@ public class QuarkBlocks {
         "duskbound_block",
         new Block(FabricBlockSettings.create().strength(1.5f, 6f))
     );
-    public static final Block DUSKBOUND_LAMP = registerBlock(
-        "duskbound_lamp",
+    public static final Block DUSKBOUND_LANTERN = registerBlock(
+        "duskbound_lantern",
         new Block(FabricBlockSettings.create().strength(1.5f, 6f).luminance(15))
     );
 
