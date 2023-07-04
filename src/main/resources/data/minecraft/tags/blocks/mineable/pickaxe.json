@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "quark:duskbound_block",
+        "quark:duskbound_lantern"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "quark",
+	"version": "1.0.0",
+	"name": "Example mod",
+	"description": "Ports a couple of blocks from the Quark mod to Fabric.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-NC-SA 3.0 US",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.badooga.quark.Quark"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json",
+		{
+			"config": "modid.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
